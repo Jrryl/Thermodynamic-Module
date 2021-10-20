@@ -15,7 +15,7 @@ Mathematical operations were conducted based on priority level set as shown in t
 | - | Subtraction | 0 |
 | \* | Multiplication | 1 |
 | / | Division | 1 |
-| ^ / \*\* | Exponent | 2 |
+| ^ or \*\* | Exponent | 2 |
 
 <br/>
 
@@ -93,7 +93,7 @@ test = LinearSolver("1 + (2/3)*a + (b-c^2) = 3", b=1, c=2)
 
 > ### _Rules for Variables_ :
 >
-> - Variables mustn't be named using any of the special constant/ operators listed in the table above
+> - Variables must not be named using any of the special constant/ operators listed in the table above
 > - Variable names can consist of digits (but ideally avoid doing so)
 > - Output variables will always be in lower case settings (keep it to lower case definition to avoid confusion)
 
